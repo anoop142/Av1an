@@ -70,8 +70,7 @@ With your own parameters:
                             Applied to each encoding segment individually.
                             (Warning: Cropping doesn't work with Target VMAF mode
                             without specifying it in --vmaf-filter)
-                            Example:
-                            --ff " -vf scale=320:240 "
+                            Example: -f "-vf scale=320:240"
 
     --pix-format            Setting custom pixel/bit format for piping
                             (Default: 'yuv420p10le')
